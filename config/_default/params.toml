@@ -114,8 +114,9 @@ address = {city = "Canberra", region = "ACT", country = "Australia", country_cod
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "Follow Me", link = "https://twitter.com/EmlynGraham"},
+  {icon = "twitter", icon_pack = "fab", name = "Follow Me", link = "https://twitter.com/emlynsg"},
   {icon= "linkedin", icon_pack = "fab", name = "Contact Me", link = "https://www.linkedin.com/in/emlyn-graham/"}
+  #{icon="instagram", icon_pack = "fab", name = "See my pictures", link = "https://www.instagram.com/emlynsg/"}
   #{icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
   #{icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
