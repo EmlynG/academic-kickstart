@@ -51,7 +51,7 @@ social:
   
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/emlyn-graham/
+  link: https://www.linkedin.com/in/emlynsg/
   
 - icon: instagram
   icon_pack: fab
