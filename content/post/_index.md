@@ -1,6 +1,6 @@
 ---
 title: Posts
-
+#aliases: ["/blog/"]
 # View.
 #   1 = List
 #   2 = Compact
@@ -12,3 +12,4 @@ header:
   caption: ""
   image: ""
 ---
+
