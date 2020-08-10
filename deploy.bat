@@ -1,6 +1,6 @@
 hugo
 git add .
 git commit -m "Website update"
-git push origin master
+git push --recurse-submodules=check
 ECHO Github Pages update complete!
 PAUSE
