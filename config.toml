@@ -6,3 +6,4 @@
 #
 # The actual configuration files are stored in the `config/_default/` folder.
 baseurl = "https://emlynsg.com/"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

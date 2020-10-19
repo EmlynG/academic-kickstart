@@ -14,9 +14,14 @@
   weight = 15
 
 [[main]]
+  name = "Photos"
+  url = "gallery/"
+  weight = 20
+
+[[main]]
   name = "About"
   url = "about/"
-  weight = 20
+  weight = 30
 
 #[[main]]
 #  name = "Projects"
