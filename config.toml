@@ -1,9 +1,109 @@
-# Academic Website Builder
-# https://sourcethemes.com/academic/
-#
-# The presence of this file is for compatibility with Blogdown and Forestry.
-# If you are not using those tools, this file may be deleted.
-#
-# The actual configuration files are stored in the `config/_default/` folder.
-baseurl = "https://emlynsg.com/"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+baseURL = "https://emlynsg.com"
+title = "Emlyn Graham"
+paginate = 5
+theme = "hugo-PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpored = false
+
+#googleAnalytics = ""
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Emlyn Graham"
+description = "Emlyn's personal website"
+author = "Emlyn Graham"
+images = "/og.jpg"
+ShowReadingTime = true
+defaultTheme = "auto"
+ShowShareButtons = false
+
+#  [params.analytics]
+#    [[params.analytics.google]]
+#    SiteVerificationTag = ""
+
+
+  [params.profileMode]
+  enabled = true
+  title = "Emlyn Graham"
+  subtitle = "Welcome to my website!"
+  imageUrl = "/square.jpg"
+  imageTitle = "Me"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "post"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/emlynsg"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/emlynsg"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/emlynsg"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "post"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 3
+
+#[[menu.main]]
+#name = "Archives"
+#url = "/archives/"
+#weight = 4
+
+#[[menu.main]]
+#name = "Tags"
+#url = "/tags/"
+#weight = 5
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+author = "authors"
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
