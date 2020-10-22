@@ -3,7 +3,8 @@ title: "About"
 layout: "about"
 url: "/about/"
 summary: "about"
-draft: false
+draft: False
+publishDate: "2020-01-01"
 hideMeta: True
 authors:
   - Emlyn Graham
