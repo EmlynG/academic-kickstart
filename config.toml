@@ -1,6 +1,6 @@
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-baseURL = "https://emlynsg.com/"
+baseURL = "emlynsg.com/"
 title = "Emlyn Graham"
 paginate = 5
 theme = "hugo-PaperMod"
