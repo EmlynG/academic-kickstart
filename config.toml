@@ -61,12 +61,12 @@ weight = 1
 
 [[menu.main]]
 name = "Posts"
-url = "post"
+url = "/post/"
 weight = 2
 
 [[menu.main]]
 name = "About"
-url = "about"
+url = "/about/"
 weight = 3
 
 #[[menu.main]]
