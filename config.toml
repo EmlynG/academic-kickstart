@@ -33,7 +33,7 @@ ShowShareButtons = false
 
   [params.profileMode]
   enabled = true
-  title = "Emlyn Grham"
+  title = "Emlyn Graham"
   subtitle = "Welcome to my website!"
   imageUrl = "/square.jpg"
   imageTitle = "Me"
