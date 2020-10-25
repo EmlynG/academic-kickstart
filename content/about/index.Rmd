@@ -10,7 +10,7 @@ authors:
   - Emlyn Graham
 ---
 
-![A picture of me](../emlyn.JPG)
+![](../emlyn.JPG)
 
 Welcome to my website!
 
